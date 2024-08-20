@@ -1,11 +1,11 @@
-puts "Informe o 1° número";
-firstValue = gets.to_i;
+puts  "Digite o primeiro número : "
+num1 = gets.chomp.to_i
 
-puts "Informe o 2° número"
-secondValue = gets.to_i;
+#usuário digite outro número
+puts "Digite o segundo inteiro: "
+num2 = gets.chomp.to_i
 
-#TODO:  Crie as condições necessárias para calcular PROD
 
-PROD = firstValue * secondValue;
+produto = num1*num2
 
-puts "PROD = #{PROD}";
+puts "O produto será: #{produto} "
